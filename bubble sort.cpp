@@ -14,7 +14,7 @@ void bubbleSort(int arr[], int n)
 	bool swapped= false;
 	for(i=0;i<n-i-1;i++)
 	{
-		for(j=0;j<n-i-1;j++)
+		for(j=0;j<n-i-1;j++) //n-i-1 is taken here as the largest ones go the end of the array and we need not care about them
 		{
 			if(arr[j]>arr[j+1]){
 				swap(&arr[j],&arr[j+1]);
