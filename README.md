@@ -1,1 +1,1 @@
-# These are the optimised sorting algorithms
+# These are the sorting algorithms
