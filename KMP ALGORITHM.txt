@@ -1,0 +1,4 @@
+This is one of the efficient string matching algorithms , it helps to remove the redundant work we do in the naive string matching code by storing longest prefix suffix(lps) array
+The worst case time complexity to find the pattern matching is o(n+m) where n is the length of given string and m is the length of pattern that we need to find whether it is 
+present in the above given string or not 
+ refer this website for more clarity https://www.techiedelight.com/implementation-kmp-algorithm-c-cpp-java/
