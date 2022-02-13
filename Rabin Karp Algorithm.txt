@@ -1,0 +1,12 @@
+This algorithm is one of the pattern matching algorithms where text n is given and also a pattern m is given to match 
+We can define a hash function and find the hash value of the pattern and check the hash value for the pattern length in text n and we only go through the text if and only if 
+the hash value of the pattern and the text of size equal to pattern matches
+if the hash value does not match we are going to slide the window in the text n 
+
+
+The worst case time complexity is O(n*m) where n is the length of text and m is the length of pattern
+The average case time complexity is O(n-m+1) 
+
+Remember that taking a simple hash function can result in more number of spurious hits(i.e matching hash values) which results in more complexity
+
+So , hash function needs to be little complex
