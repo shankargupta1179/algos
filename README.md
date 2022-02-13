@@ -1,1 +1,1 @@
-# These are the sorting algorithms
+Algorithms
